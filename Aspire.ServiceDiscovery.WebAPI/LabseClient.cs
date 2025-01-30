@@ -2,7 +2,14 @@
 {
     public async Task<string> LabseTest()
     {
-        var response = await httpClient.GetAsync("/v1/models/ainize/metadata");
-        return response.ToString();
+        try
+        {
+            var response = await httpClient.GetAsync("/v1/models/ainize/metadata");
+            return response.ToString();
+        }
+        catch (Exception ex)
+        {
+            return ex.Message;
+        }
     }
 }

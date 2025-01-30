@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Sdk Name="Aspire.AppHost.Sdk" Version="9.0.0" />
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsAspireHost>true</IsAspireHost>
+    <UserSecretsId>7b8c61c8-aa96-45d0-8f69-1fc247c10081</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ainizeml.Labse.Hosting\Ainizeml.Labse.Hosting.csproj" IsAspireProjectResource="false" />
+    <ProjectReference Include="..\Aspire.ServiceDiscovery.WebAPI\Aspire.ServiceDiscovery.WebAPI.csproj" />
+  </ItemGroup>
+
+</Project>

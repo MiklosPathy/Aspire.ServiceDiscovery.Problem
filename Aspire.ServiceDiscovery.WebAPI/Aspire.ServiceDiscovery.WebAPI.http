@@ -1,0 +1,6 @@
+@Aspire.ServiceDiscovery.WebAPI_HostAddress = http://localhost:5015
+
+GET {{Aspire.ServiceDiscovery.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

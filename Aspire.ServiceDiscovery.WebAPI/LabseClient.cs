@@ -5,7 +5,8 @@
         try
         {
             var response = await httpClient.GetAsync("/v1/models/ainize/metadata");
-            return response.ToString();
+            var content = await response.Content.ReadAsStringAsync();
+            return content;
         }
         catch (Exception ex)
         {

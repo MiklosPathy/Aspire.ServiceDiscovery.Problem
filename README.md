@@ -1,7 +1,6 @@
-# Aspire.ServiceDiscovery.Problem
+**EDIT: This is an aswer now.** I fixed the project to work. Just to have a working example on the web about custom container service discovery, for the example in the Aspire documentation is a bit misleading.
 
-EDIT: This is an aswer now. I fixed the project to work. Just to have a working example on the web about custom container service discovery, for the example in the Aspire documentation is a bit misleading.
-
+Original text:
 
 Example project demonstrating my Aspire ServiceDiscovery misuse/problem
 
